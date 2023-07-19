@@ -1,0 +1,547 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handymen App</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect"href="https://fonts.googleapis.com">
+    <link rel="preconnect"href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@200;400&display=swap" rel="stylesheet">        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="templeimages/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="templeimages/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="templeimages/favicon_io/favicon-32x32.png">
+    <link rel="manifest" href="templeimages/favicon_io/site.webmanifest">
+</head>
+<body>
+
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="templeimages/IMG-20210116-WA0006 (1).jpg" width="45px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <!--<div class="dropdown">-->
+                <li><a href="https://forms.gle/WJ7TsuePwcshbh3r9" target="_blank">Signup as Handyman</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <a href="productdetails.html"></a>
+            </ul>
+       </nav>
+       <img src="templeimages/menu-icon.png" alt="menu-icon" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <!--div class="centered">
+        <input type="text" placeholder="Search..">
+    </div-->
+    </div>
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Find Handymen</h2>
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="locationSearch" placeholder="Search by location...">
+            <button onclick="searchByLocation()">Search by Location</button>
+            <input type="text" id="titleSearch" placeholder="Search by title...">
+            <button onclick="searchByTitle()">Search by Title</button>
+        </div>
+
+    <div class="categories">
+        <div class="row">
+           </div>
+        </div>
+        </div>
+    </div>
+    <div class="small-container">
+        <div class="row">
+               
+
+<!-----------------------------FEATURED SERVICES-------------------------------------------------------------->
+            </div>
+            <h2 class="title">Hire a Handyman</h2>
+            <div class="row">
+                <div class="col-44">
+                    <img src="templeimages/ac repairer.jpg">
+                    <h4>Goodluck</h4>
+                    <h4>Electrical Installations</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:08092995975">08092995975</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <a href="productdetails.html"><img src="templeimages/david (1).webp" class="sized"></a>
+                    <h4>David</h4>
+                    <h4>Electrician</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:08036154218">08036154218</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+
+                <div class="col-44">
+                    <img src="templeimages/masonMan.jpg" class="sized">
+                    <h4>Boco</h4>
+                    <h4>Mason Man</h4>
+                    <h4>Calabar</h4>
+                    <h4><a href="tel:08143380744">08143380744</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="col-44">
+                    <img src="templeimages/anietie (1).webp" class="sized">
+                    <h4>Anietie</h4>
+                    <h4>Mason Man</h4>
+                    <h4>Calabar</h4>
+                    <h4><a href="tel:08064657474">08064657474</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/uncleprince (1).webp" class="sized">
+                    <h4>Prince</h4>
+                    <h4>Painter</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:07035535594">07035535594</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/tailor.jpg" class="sized">
+                    <h4>Gladys</h4>
+                    <h4>Tailor</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:08096950851">08096950851</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/carpenter1.jpg" class="sized">
+                    <h4>Petson Construction</h4>
+                    <h4>Carpentery | Building Maintenance | Construction</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:09013958917">09013958917</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/ovunwo (1).webp" class="sized">
+                    <h4>Ovunwo</h4>
+                    <h4>Plumber</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:08075825532">08075825532</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/mechanic.jpg" class="sized">
+                    <h4>Emmanuel</h4>
+                    <h4>Mechanic</h4>
+                    <h4>Eket</h4>
+                    <h4><a href="tel:(234) 70-1444-8815">07014448815</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/babira (1).webp" class="sized">
+                    <h4>Richard</h4>
+                    <h4>Interior Design & Wallpaper</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:08101008030">08101008030</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/samylaff (2).jpg" class="sized">
+                    <h4>SammyLaff</h4>
+                    <h4>DJ Services | Event MC | Tv Production</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:08035232656"></a>08035232656</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+
+                <div class="col-44">
+                    <img src="templeimages/gabby_tailor.webp" class="sized">
+                    <h4>Gabriel</h4>
+                    <h4>Tailor</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:07068666900">07068666900</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="col-44">
+                    <img src="templeimages/batho_screeding.jpg" class="sized">
+                    <h4>Barthlomew</h4>
+                    <h4>All things Screeding & Painting</h4>
+                    <h4>Awka, Anambra</h4>
+                    <h4><a href="tel:08032513685">08032513685</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/Nephi.jpg" class="sized">
+                    <h4>Nephi</h4>
+                    <h4>DSTV & Satellite Installations</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:08101565689">08101565689</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/tailord (1).jpg" class="sized">
+                    <h4>Tailord Afrik</h4>
+                    <h4>Fashion Designer</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:09063712229">09063712229</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/akwara.jpg" class="sized">
+                    <h4>Akwara</h4>
+                    <h4>Photographer | Videographer | Graphics Designer | Cinematographer</h4>
+                    <h4>Benin</h4>
+                    <h4><a href="tel:09035670903">09035670903</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/plumber.jpg" class="sized">
+                    <h4>Barine</h4>
+                    <h4>Plumber</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:08145894668">08145894668</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/industrial cleaner.jpg" class="sized">
+                    <h4>Ekanem</h4>
+                    <h4>Event Management | Industrial Cleaning</h4>
+                    <h4>Calabar</h4>
+                    <h4><a href="tel:08174538408">08174538408</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/masseur.jpg" class="sized">
+                    <h4>Thomas</h4>
+                    <h4>Masseur | Gardener</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:07065203044">07065203044</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+
+                <div class="col-44">
+                    <img src="templeimages/Christo.jpg" class="sized">
+                    <h4>Christo</h4>
+                    <h4>DSTV | GOTV | Satellite Installation</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:08037184941">08037184941</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+
+                <div class="col-44">
+                    <img src="templeimages/essien_shoes.webp" class="sized">
+                    <h4>Essien</h4>
+                    <h4>Shoe Cobbler</h4>
+                    <h4>Lagos</h4>
+                    <h4><a href="tel:08143559782">08143559782</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+
+                <div class="col-44">
+                    <img src="templeimages/Jacob.jpg" class="sized">
+                    <h4>Jacob</h4>
+                    <h4>Laptop/PC Repairs</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:08177773856">08177773856</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/shoes_gabe1.webp" class="sized">
+                    <h4>Gabriel</h4>
+                    <h4>Shoe Cobbler | Leather Works| Leather Bags</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:08079067398">08079067398</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/Uche.jpg" class="sized">
+                    <h4>Uche</h4>
+                    <h4>Laptop Repairs | Laptop Sales</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:08139759757">08139759757</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/soso.jpg" class="sized">
+                    <h4>Pure Glamour</h4>
+                    <h4>Beauty | Cosmetic & Personal Care</h4>
+                    <h4>G.R.A | Port Harcourt</h4>
+                    <h4><a href="tel:07063196456">07063196456</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/ndasia.webp" class="sized">
+                    <h4>Ndasia</h4>
+                    <h4>Carpenter</h4>
+                    <h4>Calabar</h4>
+                    <h4><a href="tel:09015454004">09015454004</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/handyman (28).webp" class="sized">
+                    <h4>Ugochukwu</h4>
+                    <h4>Satellite Installation | Electricals & Wiring</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:09011072890">09011072890</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/painter.webp" class="sized">
+                    <h4>Terence</h4>
+                    <h4>Painter</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:08037593811">08037593811</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+            
+                <div class="col-44">
+                    <img src="templeimages/pee.webp" class="sized">
+                    <h4>Pee Stiches</h4>
+                    <h4>Fashion Designer</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="08136899781">08136899781</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+
+                <div class="col-44">
+                    <img src="templeimages/slyvia.webp" class="sized">
+                    <h4>Sylvia</h4>
+                    <h4>Computer Operator</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:09036560129">09036560129</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="col-44">
+                    <img src="templeimages/pius.webp" class="sized">
+                    <h4>Pius</h4>
+                    <h4>Led Screen Engineer</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:08118420895">08118420895</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="col-44">
+                    <img src="templeimages/aluminium1.webp" class="sized">
+                    <h4>Henry</h4>
+                    <h4>Aluminium Windows | Doors</h4>
+                    <h4>Port Harcourt</h4>
+                    <h4><a href="tel:08030871955">08030871955</a></h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!------------------------------------footer------------------------------------------------------------------------->  
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="templeimages/appstore.webp" alt="">
+                        <img src="templeimages/applestore.webp" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <p>Handymen App is powered by Sangisang. Sangisang means movement. Let's move you from one 
+                        apartment to any apartment of you choice with ease!
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <a href="index.html"><li>Home</li></a>
+                        <a href="contact.html"><li>Contact Us</li></a>
+                        <li><a href="https://forms.gle/WJ7TsuePwcshbh3r9" target="_blank">Signup as Handyman</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <a href="www.facebook.com" target="_blank"><li><img src="templeimages/facebook_circle_color-128.webp" width="30"></li></a>
+                        <a href="www.linkedin.com" target="_blank"><li><img src="templeimages/LinkedIn_icon.png" width="30"></li></a>
+                        <a href="www.twitter.com" target="_blank"><li><img src="templeimages/twitter-128.webp" width="30"></li></a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> &copy;2023 - Efita Effiom<br>Last Modification: <span id="efita"></span>
+            </p>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+    <script src="lastmod/script.js"></script>
+</body>
+</html>
