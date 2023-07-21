@@ -46,3 +46,29 @@ function searchByTitle() {
         }
     }
 }
+
+
+// Check if local storage is supported by the browser
+if (typeof(Storage) !== 'undefined') {
+    // Retrieve the current visit count from local storage
+    let visitCount = localStorage.getItem('visitCount');
+
+    // If this is the first visit (visitCount is null), set it to 1
+    if (visitCount === null) {
+        visitCount = 1;
+    } else {
+        // If not the first visit, increment the visit count
+        visitCount = parseInt(visitCount) + 1;
+    }
+
+    // Update the visit count in local storage
+    localStorage.setItem('visitCount', visitCount);
+
+    // Display the visit count in the placeholder element
+    const visitCountDisplay = document.getElementById('visitCountDisplay');
+    visitCountDisplay.innerHTML = '<p>You have visited this web app ' + visitCount + ' time(s).</p>';
+} else {
+    // If local storage is not supported, display an error message
+    const visitCountDisplay = document.getElementById('visitCountDisplay');
+    visitCountDisplay.innerHTML = '<p>Sorry, your browser does not support local storage, so we cannot track your visits.</p>';
+}
