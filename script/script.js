@@ -38,7 +38,7 @@ function searchByTitle() {
     var itemCards = document.querySelectorAll(".col-44");
 
     for (var i = 0; i < itemCards.length; i++) {
-        var titleText = itemCards[i].querySelector("h4:nth-child(2)").textContent.toLowerCase();
+        var titleText = itemCards[i].querySelector("h4:nth-child(3)").textContent.toLowerCase();
         if (titleText.includes(titleSearch)) {
             itemCards[i].style.display = "block";
         } else {
