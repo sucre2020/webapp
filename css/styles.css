@@ -66,7 +66,7 @@ nav ul li:hover{
 
 a{
     text-decoration: none;
-    color: #1D3461;    
+    color: #E3170A;    
 }
 
 .dropbtn {
@@ -296,6 +296,7 @@ h4{
 .footer-col-3, .footer-col-4{
     flex-basis: 12%;
     text-align: center;
+    
 }
 
 ul{
@@ -441,7 +442,7 @@ input:focus{
     }
 
     nav ul li a{
-        color: #fff;
+        color: #E3170A;
     } 
     
     .menu-icon{
