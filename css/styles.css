@@ -28,10 +28,11 @@
 
 .callus{
     float: right;
-    border: 1px solid blue;
+    border: 1px solid #12122e;
     border-radius: 10px;
-    padding: 15px;
+    padding: 8px;
 }
+
 
 body{
     font-family: "poppins", sans-serif; 
@@ -136,7 +137,7 @@ p{
 }
 .btn{
     display: inline-block;
-    background: #E3170A;
+    background: #12122e;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
