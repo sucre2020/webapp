@@ -65,8 +65,8 @@ if (typeof(Storage) !== 'undefined') {
     localStorage.setItem('visitCount', visitCount);
 
     // Display the visit count in the placeholder element
-    const visitCountDisplay = document.getElementById('visitCountDisplay');
-    visitCountDisplay.innerHTML = '<p>You have visited this web app ' + visitCount + ' time(s).</p>';
+    //const visitCountDisplay = document.getElementById('visitCountDisplay');
+    //visitCountDisplay.innerHTML = '<p>You have visited this web app ' + visitCount + ' time(s).</p>';
 } else {
     // If local storage is not supported, display an error message
     const visitCountDisplay = document.getElementById('visitCountDisplay');
