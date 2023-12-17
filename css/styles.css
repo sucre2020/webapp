@@ -505,11 +505,22 @@ input:focus{
 
     nav ul li a{
         color: #E3170A;
-    } 
+    }
+
+    .navbar{
+        position: fixed; /*Make the navbar fixed when scrolled*/
+        top: 3px;
+    }
     
     .menu-icon{
         display: block;
         cursor: pointer;
+        margin-right: 70px;
+    }
+
+    .whiteFont{
+        background-color: rgba(51, 51, 51, 0.3);
+        font-weight: bold;
     }
 }
 
