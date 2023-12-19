@@ -434,7 +434,7 @@ input:focus{
 /*Hompage CSS*/
 
 .homepageImage{
-    background-image: url(/webapp/templeimages/blackhandymen.jpg);
+    background-image: url(/templeimages/blackhandymen.jpg);
     margin-top: 100px;
     background-size: cover;
     background-repeat: no-repeat;
